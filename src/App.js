@@ -14,14 +14,14 @@ import {
 
 import './App.css';
 
-function App() {
+const App = () => {
 	const [selectedPage, setSelectedPage] = useState('home');
 
 	return (
 		<Router>
-			<div className='app bg-deep-blue'>
+			<div className=''>
 				<Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-				<div className='w-3/4 mx-auto md:h-full'>
+				<div className=''>
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/projects' element={<Projects />} />
@@ -34,6 +34,6 @@ function App() {
 			</div>
 		</Router>
 	);
-}
+};
 
 export default App;
