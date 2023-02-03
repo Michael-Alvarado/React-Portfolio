@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+// import { NavLink, Link } from 'react-router-dom';
+import { Avatar, Link } from '@vechaiui/react';
 
 const Navbar = () => {
     let Links = [
@@ -12,37 +13,37 @@ const Navbar = () => {
 
     return (
         <nav className=''>
-        <div className=''>
-            <div className=''>
-            <Link to='home'>
-            <h2>Michael Alvarado</h2>
-            </Link>
-            </div>
-            <div
-            onClick={() => setIsMenuToggled(!isMenuToggled)}
-            className=''
-            >
-            <ion-icon name=''></ion-icon>
-            </div>
-            <ul
-            className=''
-            >
-            {Links.map((link) => (
-                <li
-                key={link.name} 
+            <div className='flex flex-wrap w-full p-8 space-x-4'>
+                <div className=''>
+                    <Link to='home'>
+                        <Avatar src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" size="3xl" />
+                        <h2>Michael Alvarado</h2>
+                    </Link>
+                </div>
+                <div
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
                 className=''
                 >
-                <NavLink
-                onClick={() => setIsMenuToggled(!isMenuToggled)}
-                to={link.link}>
-                    {link.name}
-                </NavLink>
-                </li>
-            ))}
-            </ul>
-        </div>
+                    <ion-icon name=''></ion-icon>
+                </div>
+                <ul
+                className=''
+                >
+                {Links.map((link) => (
+                    <li
+                    key={link.name} 
+                    className=''
+                    >
+                    <NavLink
+                    onClick={() => setIsMenuToggled(!isMenuToggled)}
+                    to={link.link}>
+                        {link.name}
+                    </NavLink>
+                    </li>
+                ))}
+                </ul>
+            </div>
         </nav>
-
     );
 };
 
