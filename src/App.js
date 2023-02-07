@@ -1,9 +1,9 @@
-import Navbar from '../Module 20/React-Portfolio/src/components/Navbar';
-import Home from '../Module 20/React-Portfolio/src/components/Home';
-import Projects from '../Module 20/React-Portfolio/src/components/Projects';
-import Resume from '../Module 20/React-Portfolio/src/components/Resume';
-import Contact from '../Module 20/React-Portfolio/src/components/Contact';
-import Footer from '../Module 20/React-Portfolio/src/components/Footer';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import { useState } from 'react';
 import {
 	BrowserRouter as Router,
@@ -15,12 +15,12 @@ import {
 import './App.css';
 
 const App = () => {
-	const [selectedPage, setSelectedPage] = useState('home');
+	const [selectPage, setSelectedPage] = useState('home');
 
 	return (
 		<Router>
 			<div className=''>
-				<Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+				<Navbar selectedPage={selectPage} setSelectedPage={setSelectedPage} />
 				<div className=''>
 					<Routes>
 						<Route path='/' element={<Home />} />
