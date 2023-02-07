@@ -12,16 +12,16 @@ import {
 	Navigate,
 } from 'react-router-dom';
 
-import './App.css';
+import './input.css';
 
 const App = () => {
 	const [selectPage, setSelectedPage] = useState('home');
 
 	return (
 		<Router>
-			<div className=''>
+			<div className='bg-charcoal'>
 				<Navbar selectedPage={selectPage} setSelectedPage={setSelectedPage} />
-				<div className=''>
+				<div className='w-4/5 mx-auto md:h-full'>
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/projects' element={<Projects />} />

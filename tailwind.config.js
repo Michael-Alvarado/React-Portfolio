@@ -11,7 +11,7 @@ module.exports = {
 				'light-picton': '#9ECAE8',
 				charcoal: '#454955',
 				night: '#0D0A0B',
-				'rose-red': '#BF11363',
+				'rose-red': '#BF1363',
 				'light-rose': '#EF5DA1',
 			},
 			fontFamily: {
