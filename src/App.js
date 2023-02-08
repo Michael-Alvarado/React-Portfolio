@@ -29,8 +29,8 @@ const App = () => {
 						<Route path='/contact' element={<Contact />} />
 						<Route path='*' element={<Navigate to='/' />} />
 					</Routes>
-					<Footer />
 				</div>
+				<Footer />
 			</div>
 		</Router>
 	);
