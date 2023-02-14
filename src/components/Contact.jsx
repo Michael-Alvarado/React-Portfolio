@@ -1,5 +1,10 @@
 import { useState } from "react";
 import { send } from 'emailjs-com';
+import env from 'react-dotenv';
+
+const user_id = env.REACT_APP_USER_ID;
+const service_id = env.REACT_APP_SERVICE_ID;
+const template_id = env.REACT_APP_TEMPLATE_ID;
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -18,10 +23,10 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         send(
-            'SERVICE ID',
-            'TEMPLATE ID',
+            service_id,
+            template_id,
             formData,
-            'User ID'
+            user_id,
         ).then((r) => {
             console.log('SUCCESS!', r.status, r.text);
         }).catch((err) => {
