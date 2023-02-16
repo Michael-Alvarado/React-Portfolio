@@ -7,7 +7,7 @@ const Footer = () => {
             © 2023 by Michael Alvarado
             </p>
             <br />
-            <div className="md:flex justify-center gap-8 text-center text-3xl">
+            <div className="md:flex justify-center gap-8 text-center text-3xl" style={{display: 'inline-flex'}}>
                 <a className="hover:text-light-rose text-picton-blue hover:scale-110 transition duration-500 p-2" href="https://github.com/Michael-Alvarado/" target='_blank' rel='noreferrer'>
                     <Unicons.UilGithub size='45' />
                 </a>
