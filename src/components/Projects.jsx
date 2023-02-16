@@ -16,7 +16,7 @@ const Projects = () => {
             github: 'https://github.com/Michael-Alvarado/Solo-Traveler'
         },
         {   name: 'ToDo List',
-            description: 'ToDo List is an app that allows a user to keep tracker of their todos. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express session npm package for authentication',
+            description: 'ToDo List is an app that allows a user to keep track of their todos. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express session npm package for authentication',
             image: toDoList,
             link: '',
             github: 'https://github.com/Michael-Alvarado/ToDo-List'
