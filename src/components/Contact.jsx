@@ -1,10 +1,10 @@
+import * as Unicons from '@iconscout/react-unicons';
 import { useState } from "react";
 import { send } from 'emailjs-com';
-import env from 'react-dotenv';
 
-const user_id = env.REACT_APP_USER_ID;
-const service_id = env.REACT_APP_SERVICE_ID;
-const template_id = env.REACT_APP_TEMPLATE_ID;
+const user_id = process.env.REACT_APP_USER_ID;
+const service_id = process.env.REACT_APP_SERVICE_ID;
+const template_id = process.env.REACT_APP_TEMPLATE_ID;
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -72,10 +72,11 @@ const Contact = () => {
                     />
 
                     <button 
-                        className='rounded-sm mt-4 ml-2 py-3 px-7 text-lg font-semibold bg-picton-blue text-charcoal hover:bg-light-rose transition duration-500' 
+                        className='rounded-sm mt-4 ml-2 py-3 px-7 text-lg gap-2 font-semibold bg-picton-blue text-charcoal hover:bg-light-rose transition duration-500' 
                         type="submit"
+                        style={{display: 'inline-flex'}}
                     >
-                        Submit
+                        Submit  <Unicons.UilShare />
                     </button>
                 </form>
             </div>
