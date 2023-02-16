@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import logo from '../assets/images/MALogo.jpeg';
 import hoverLogo from '../assets/images/MALogo2.jpeg';
+import * as Unicons from '@iconscout/react-unicons';
 
 const Navbar = () => {
     let Links = [
@@ -26,6 +27,8 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div onClick={() => setOption(!option)} className='absolute right-8 top-6 cursor-pointer md:hidden text-4xl'>
+                    <Unicons.UilBars className={option ? 'hidden' : 'text-picton-blue hover:text-light-rose transition duration-500'} />
+                    <Unicons.UilX className={option ? 'text-picton-blue hover:text-light-rose transition duration-500' : 'hidden'} />
                 </div>
                 <ul 
                     className={`md:flex md:items-center gap-16 md:pb-0 absolute md:static bg-night md:z-auto z-[-1] text-picton-blue
