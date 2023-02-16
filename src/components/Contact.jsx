@@ -6,6 +6,11 @@ const user_id = process.env.REACT_APP_USER_ID;
 const service_id = process.env.REACT_APP_SERVICE_ID;
 const template_id = process.env.REACT_APP_TEMPLATE_ID;
 
+console.log(user_id);
+console.log(service_id);
+console.log(template_id);
+
+
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
