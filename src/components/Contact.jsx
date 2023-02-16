@@ -32,6 +32,12 @@ const Contact = () => {
         }).catch((err) => {
             console.log('FAILED...', err);
         });
+        setFormData({
+            ...formData,
+            name: '',
+            email: '',
+            message: '',
+        });
     };
 
     return (
