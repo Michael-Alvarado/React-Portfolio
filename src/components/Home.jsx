@@ -14,7 +14,7 @@ const Home = () => {
                     experience, making me a strong leader and team player. I'm excited to bring my skills and experience to a new role in software development. 
                 </p>
                 <p className='mb-7 font-itim text-md md:text-lg text-center text-picton-blue'>
-                    Check out the links at the top to see some of my work and more info about my work history and feel free to reach out with any questions. 
+                Please take a look at the links provided at the top to view my portfolio and learn more about my work history. If you have any questions, please don't hesitate to reach out to me. 
                 </p>
             </div>
             <div className="basis-2/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
