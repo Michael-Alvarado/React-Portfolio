@@ -5,7 +5,7 @@ import soloTravel from '../assets/images/Solo-Traveler.png';
 import starWars from '../assets/images/Star-Wars-Quiz.png';
 import toDoList from '../assets/images/ToDo-List.png';
 import weather from '../assets/images/Weather-Dashboard.png';
-import workDay from '../assets/images/Work-Day-Scheduler.png';
+// import workDay from '../assets/images/Work-Day-Scheduler.png';
 
 const Projects = () => {
     const ProjectData = [
@@ -45,12 +45,12 @@ const Projects = () => {
             link: 'https://michael-alvarado.github.io/Password-Generator/',
             github: 'https://github.com/Michael-Alvarado/Password-Generator'
         },
-        {   name: 'Work Day Scheduler',
-            description: 'Created a single day scheduler to keep track of tasks or to-do items that day to help manage time effectively. Input fields display gray if the timeblock is in the past, red if it's the current hour, and green if it's in the future. Required use of moment.js and other third-party APIs to complete. Javascript written from scratch.',
-            image: workDay,
-            link: 'https://michael-alvarado.github.io/Work-Day-Scheduler/',
-            github: 'https://github.com/Michael-Alvarado/Work-Day-Scheduler'
-        }
+        // {   name: 'Work Day Scheduler',
+        //     description: 'Created a single day scheduler to keep track of tasks or to-do items that day to help manage time effectively. Input fields display gray if the timeblock is in the past, red if it's the current hour, and green if it's in the future. Required use of moment.js and other third-party APIs to complete. Javascript written from scratch.',
+        //     image: workDay,
+        //     link: 'https://michael-alvarado.github.io/Work-Day-Scheduler/',
+        //     github: 'https://github.com/Michael-Alvarado/Work-Day-Scheduler'
+        // }
     ]
     
     return (
