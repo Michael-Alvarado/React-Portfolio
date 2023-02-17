@@ -20,7 +20,10 @@
 
   ## Usage
   
-  npm run start
+  Type 'npm run start' in your CLI after cloning this repo. You can also visit the live site at [https://malvarado.herokuapp.com/](https://malvarado.herokuapp.com/).
+  <br />
+  <br />
+  ![Screenshot](./src/assets/images/React-Portfolio-Screenshot.png)
 
   ## License
   
