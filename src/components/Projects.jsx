@@ -12,13 +12,13 @@ const Projects = () => {
         {   name: 'Solo Traveler',
             description: 'Solo Traveler web app provides solo travelers a place to connect and plan upcoming trips. Solo Traveler allows users to create a travel profile, save trips, and connect with other solo travelers in chat rooms.',
             image: soloTravel,
-            link: '',
+            link: 'https://solotravels.herokuapp.com/',
             github: 'https://github.com/Michael-Alvarado/Solo-Traveler'
         },
         {   name: 'ToDo List',
             description: 'ToDo List is an app that allows a user to keep track of their todos. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express session npm package for authentication',
             image: toDoList,
-            link: '',
+            link: 'https://todo-list-p2.herokuapp.com/',
             github: 'https://github.com/Michael-Alvarado/ToDo-List'
         },
         {   name: 'EV Boost',
