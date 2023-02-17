@@ -3,7 +3,7 @@ import evBoost from '../assets/images/EV-Boost.png';
 import passGen from '../assets/images/Password-Generator.png';
 import soloTravel from '../assets/images/Solo-Traveler.png';
 import starWars from '../assets/images/Star-Wars-Quiz.png';
-import toDoList from '../assets/images/ToDo List.png';
+import toDoList from '../assets/images/ToDo-List.png';
 import weather from '../assets/images/Weather-Dashboard.png';
 // import workDay from '../assets/images/Work-Day-Scheduler.png';
 
