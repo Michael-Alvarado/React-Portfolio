@@ -11,7 +11,7 @@ const Home = () => {
                     Hi, I'm Michael Alvarado. I recently completed my Full Stack Software Engineering certification from The University of Texas at Austin. After seven years as a customer success
                     and renewals professional, I've decided to make a career change to software engineering. With my certification in hand and BS in Computer Science from Texas State, I'm well
                     equipped to tackle this new field. In addition to the gained technical skills, I have over five years of managerial experience, including two years of second line management
-                    experience, making me a strong leader and team player. I'm excited to bring my skills and experience to a new role in software development. 
+                    experience, making me a strong leader and contributor. I'm excited to bring my skills and experience to a new role in software development. 
                 </p>
                 <p className='mb-7 font-itim text-md md:text-lg text-center text-picton-blue'>
                 Please take a look at the links provided at the top to view my portfolio and learn more about my work history. If you have any questions, please don't hesitate to reach out to me. 
