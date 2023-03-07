@@ -20,7 +20,7 @@
 
   ## Usage
   
-  Type 'npm run start' in your CLI after cloning this repo. You can also visit the live site at [https://malvarado.herokuapp.com/](https://malvarado.herokuapp.com/).
+  Type 'npm run start' in your CLI after cloning this repo. You can also visit the live site at [https://michaelalvarado.vercel.app/](https://michaelalvarado.vercel.app/).
   <br />
   <br />
   ![Screenshot](./src/assets/images/React-Portfolio-Screenshot.png)
